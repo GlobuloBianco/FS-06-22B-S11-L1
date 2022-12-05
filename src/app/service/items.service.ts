@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Items } from '../interface/items.interface';
-import { map } from 'rxjs/operators';
 
 @Injectable({
     providedIn: 'root'
